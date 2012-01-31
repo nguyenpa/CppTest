@@ -1,20 +1,15 @@
 #include <iostream>
-int f( int x)
+int fact( int n)
 {
-    x=5;
-    return 2;
+    if (n==0)
+    return 1;
+    else return n*fact(n-1);
 }
 
-void g(int x)
-{
-    x=5;
-   
-}
 int main(int argc, char ** argv)
 {
 
-    int a=3;
-
-    f(5);
+    int a;
+    a=fact(5);
     std::cout << a << std::endl;
 } 
