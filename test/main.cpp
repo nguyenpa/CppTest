@@ -10,6 +10,6 @@ int main(int argc, char ** argv)
 {
 
     int a;
-    a=fact(5);
+    a=fact(4);
     std::cout << a << std::endl;
 } 
