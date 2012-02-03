@@ -105,8 +105,8 @@ bool point_test()
 class Square
 {
 public:
-    Square (Point p, int l)
-    {   _center=p;
+    Square (Point p, int l):_center(p)
+    {
         _length=l;
     }
 
